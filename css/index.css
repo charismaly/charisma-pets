@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #ebebeb;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    height: 350px;
+    width: 700px;
+    padding: 50px 20px;
+    transform: translateY(20px);
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw
+    }
+
+    .panel:nth-of-type(4)
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+}
+
+h1 {
+    color: #c4b3a9;
+    font-size: 45px;
+    transform: translateY(-140px);
+}
+
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #c4b3a9;
+    transform: translateY(-150px);
+    margin-left: 70px;
+    margin-right: 70px;
+    box-shadow: 0 5px #999;
+}
+
+img {
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    padding: 10px;
+    transform: translateY(-150px);
+  }

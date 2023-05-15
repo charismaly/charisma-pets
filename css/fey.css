@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #ebebeb;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw
+    }
+
+    .panel:nth-of-type(4)
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+}
+
+h1 {
+    color: #c4b3a9;
+    margin-left: 70px;
+    margin-bottom: -10px;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+li {
+    font-size: 20px;
+    transform: translateY(-160px) translateX(1220px);
+    list-style-type: none;
+}
+
+a {
+    color: #c4b3a9;
+}
